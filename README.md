@@ -1,37 +1,55 @@
-{
-  "project_name": "SURCHI Presale Configuration",
-  "token_metadata": {
-    "name": "SURCHI",
-    "symbol": "SURCHI",
-    "blockchain": "Solana",
-    "total_supply": 19897905
+/**
+ * SURCHI Presale Configuration
+ * Native Ecosystem: Solana
+ */
+
+export const SURCHI_TOKEN_METADATA = {
+  name: "SURCHI",
+  symbol: "SURCHI",
+  blockchain: "Solana",
+  totalSupply: 19_897_905,
+};
+
+export const TOKEN_ALLOCATION = {
+  presale: {
+    percentage: 0.64,
+    tokens: 12_734_659.2,
   },
-  "token_allocation": {
-    "presale": {
-      "percentage": 64,
-      "amount": 12734659.2
-    },
-    "liquidity_pool": {
-      "percentage": 30,
-      "amount": 5969371.5
-    },
-    "reserve": {
-      "percentage": 6,
-      "amount": 1193874.3
-    }
+  liquidityPool: {
+    percentage: 0.30,
+    tokens: 5_969_371.5,
   },
-  "presale_parameters": {
-    "soft_cap_sol": 100,
-    "hard_cap_sol": 600,
-    "presale_rate_per_sol": 21224.43,
-    "min_contribution_sol": 0.05,
-    "max_contribution_sol": 10,
-    "duration_days": 30,
-    "unsold_tokens_policy": "Reserve for External Liquidity Addition"
+  reserve: {
+    percentage: 0.06,
+    tokens: 1_193_874.3,
   },
-  "listing_and_liquidity": {
-    "listing_type": "Auto Listing",
-    "liquidity_provision_rate": 0.70,
-    "liquidity_lock_days": 365
-  }
-}
+};
+
+export const PRESALE_STRUCTURE = {
+  softCap: 100, // SOL
+  hardCap: 600, // SOL
+  liquidityRate: 0.70, // 70%
+  listingType: "Auto Listing",
+  durationDays: 30,
+  liquidityLockDays: 365,
+  minBuy: 0.05, // SOL
+  maxBuy: 10,   // SOL
+  unsoldTokens: "Reserved for External Liquidity Addition",
+};
+
+export const PRICING_CONSTANTS = {
+  ratePerSol: 21_224.43,
+  examples: [
+    { sol: 0.05, surchi: 1_061.22 },
+    { sol: 1.00, surchi: 21_224.43 },
+    { sol: 10.0, surchi: 212_244.32 },
+  ],
+};
+
+export const LAUNCH_HIGHLIGHTS = [
+  "Strong liquidity-focused tokenomics",
+  "Community-driven distribution structure",
+  "Long-term liquidity protection",
+  "Scalable AI-powered Web3 ecosystem",
+  "Built on the high-speed Solana network",
+];
