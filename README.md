@@ -18,7 +18,7 @@ This repository contains the official economic parameters and architectural conf
 | :--- | :--- | :--- |
 | **Presale** | 64% | 12,734,659.2 |
 | **Liquidity Pool** | 30% | 5,969,371.5 |
-| **Reserve** | 6% | 1,193,874.3 |
+| **Community Reserve (DAO** | 6% | 1,193,874.3 |
 
 ---
 
