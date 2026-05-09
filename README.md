@@ -1,7 +1,7 @@
 [![SURCHI](https://img.shields.io/badge/Project-SURCHI-blue?style=flat-square&logo=github)]
 [![Cycle: 2026-2027](https://img.shields.io/badge/Cycle-2026--2027-orange)](#)
 
-#  SURCHI Presale Configuration
+#   Presale Configuration
 
 This repository contains the official economic parameters and architectural configuration for the **SURCHI** presale on the Solana blockchain.
 
