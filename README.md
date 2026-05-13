@@ -1,4 +1,4 @@
-[![SURCHI](https://img.shields.io/badge/Project-SURCHI-blue?style=flat-square&logo=github)]
+[![SURCHI](https://img.shields.io/badge/Project-SURCHI-blue?style=flat-square&logo=github)](https://github.com/surchiai)
 [![Cycle: 2026-2027](https://img.shields.io/badge/Cycle-2026--2027-orange)](#)
 
 #   Presale Configuration
